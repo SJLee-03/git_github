@@ -46,3 +46,5 @@ git config --local user.email "유저이메일"
 git config user.name
 git config user.email
 git config --list
+
+# 특정 repo안에서 조회하면 특정 repo에 대한 지역정보가 조회되고 repository 밖에서 조회시 전역 정보 조회
