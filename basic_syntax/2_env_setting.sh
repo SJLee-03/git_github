@@ -48,3 +48,8 @@ git config user.email
 git config --list
 
 # 특정 repo안에서 조회하면 특정 repo에 대한 지역정보가 조회되고 repository 밖에서 조회시 전역 정보 조회
+
+# 특정 파일을 git 추적목록에서 제외시키고 싶다면 .gitignore파일에 파일목록 등록
+# 이미 add, commit 되어 버린 파일을 추적목록에서 제외하고 싶다면 
+git rm -r --cached .
+# commit 이력이 어쨌던 남아서 비추함 중요 정보를 실수로 commit 해버렸다면 중요정보 자체를 변경하는 것을 추천 
